@@ -4,8 +4,10 @@
   "description": "Simple Todo API",
   "main": "src/main.ts",
   "scripts": {
-    "dev": "tsnd --respawn src/main.ts"
+    "dev": "tsnd --respawn src/main.ts",
+    "build": "tsnd --respawn src/main.ts"
   },
+  "type": "module",
   "keywords": [],
   "author": "Pradana",
   "license": "MIT",
