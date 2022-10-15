@@ -5,7 +5,7 @@
   "main": "src/main.ts",
   "scripts": {
     "dev": "tsnd --respawn src/main.ts",
-    "build": "tsnd --respawn src/main.ts"
+    "build": "ts-node-transpile-only src/main.ts"
   },
   "type": "module",
   "keywords": [],
