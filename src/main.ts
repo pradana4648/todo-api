@@ -1,4 +1,4 @@
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
 import Vision from "@hapi/vision";
 import Hapi from "@hapi/hapi";
 import prismaPlugin from "./plugins/prismaPlugin";
